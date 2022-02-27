@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">S4_first_calculator</string>
+    <string name="calcBtnText">Calculate</string>
+</resources>
