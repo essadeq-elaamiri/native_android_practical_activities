@@ -9,24 +9,32 @@
     android:orientation="vertical"
     android:padding="25dp"
     android:layout_centerHorizontal="true"
+    android:background="@color/blue_"
     >
 
     <TextView
         android:id="@+id/operationPlaceHolder"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         tools:text="2-4"
         android:textAlignment="viewStart"
-        android:textSize="16dp"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:background="@color/gray_"
+        android:layout_marginTop="20dp"
         />
     <EditText
         android:id="@+id/operationScreen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:inputType="none"
         android:focusableInTouchMode="false"
         android:focusable="false"
-        android:textSize="23dp"
+        android:textSize="25dp"
+        android:background="@color/yellow_"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="-1dp"
         />
     <LinearLayout
         android:layout_height="wrap_content"
@@ -41,42 +49,55 @@
             >
             <Button
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:id="@+id/_c"
                 android:onClick="btnClicked"
                 android:text="C"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/_x"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="x"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+
+                ></Button>
 
             <Button
                 android:id="@+id/operation_sqrt"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="sqrt"
+                android:layout_height="60dp"
+                android:text="√"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operation_div"
                 android:onClick="btnClicked"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:text="/"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,42 +106,54 @@
             <Button
                 android:id="@+id/operand_7"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="7"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operand_8"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="8"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operand_9"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="9"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operation_add"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="+"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -128,41 +161,53 @@
             <Button
                 android:id="@+id/operand_4"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="4"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operand_5"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="5"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operand_6"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="6"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
             <Button
                 android:id="@+id/operation_mult"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="*"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -171,42 +216,54 @@
             <Button
                 android:id="@+id/operand_3"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="3"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operand_2"
                 android:onClick="btnClicked"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:text="2"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operand_1"
                 android:onClick="btnClicked"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:text="1"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
 
             <Button
                 android:id="@+id/operation_sub"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="-"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -215,34 +272,43 @@
             <Button
                 android:id="@+id/operand_0"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="0"
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
                 ></Button>
 
             <Button
                 android:id="@+id/point"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="."
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
                 ></Button>
 
             <Button
                 android:id="@+id/operation_equal"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:onClick="btnClicked"
                 android:text="="
                 android:layout_weight="2"
                 android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp"></Button>
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="@color/blue_btn"
+                android:textSize="19dp"
+                ></Button>
         </LinearLayout>
 
     </LinearLayout>
